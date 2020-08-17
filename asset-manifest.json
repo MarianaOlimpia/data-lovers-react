@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/data-lovers-react/static/css/main.03b4a92a.chunk.css",
-    "main.js": "/data-lovers-react/static/js/main.2fe8a531.chunk.js",
-    "main.js.map": "/data-lovers-react/static/js/main.2fe8a531.chunk.js.map",
+    "main.js": "/data-lovers-react/static/js/main.54cabd6c.chunk.js",
+    "main.js.map": "/data-lovers-react/static/js/main.54cabd6c.chunk.js.map",
     "runtime-main.js": "/data-lovers-react/static/js/runtime-main.252c58b1.js",
     "runtime-main.js.map": "/data-lovers-react/static/js/runtime-main.252c58b1.js.map",
     "static/js/2.2655e9eb.chunk.js": "/data-lovers-react/static/js/2.2655e9eb.chunk.js",
     "static/js/2.2655e9eb.chunk.js.map": "/data-lovers-react/static/js/2.2655e9eb.chunk.js.map",
     "index.html": "/data-lovers-react/index.html",
-    "precache-manifest.0f0f330cb4453573205939b97f0d18ea.js": "/data-lovers-react/precache-manifest.0f0f330cb4453573205939b97f0d18ea.js",
+    "precache-manifest.317be16c49ce675e45e011d9a7045d36.js": "/data-lovers-react/precache-manifest.317be16c49ce675e45e011d9a7045d36.js",
     "service-worker.js": "/data-lovers-react/service-worker.js",
     "static/css/main.03b4a92a.chunk.css.map": "/data-lovers-react/static/css/main.03b4a92a.chunk.css.map",
     "static/js/2.2655e9eb.chunk.js.LICENSE.txt": "/data-lovers-react/static/js/2.2655e9eb.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.252c58b1.js",
     "static/js/2.2655e9eb.chunk.js",
     "static/css/main.03b4a92a.chunk.css",
-    "static/js/main.2fe8a531.chunk.js"
+    "static/js/main.54cabd6c.chunk.js"
   ]
 }
