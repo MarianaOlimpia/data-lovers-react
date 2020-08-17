@@ -1,0 +1,18 @@
+html {
+    background: black;
+}
+.main {
+    display: flex;
+    background: #ffffff;
+    height: 5rem;
+    justify-content: space-around;
+}
+.card-container {
+    padding: 6rem 0;
+}
+
+@media (max-width: 649px) {
+    .card-container {
+        padding: 12rem 0;
+    }
+}

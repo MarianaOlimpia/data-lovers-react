@@ -1,0 +1,36 @@
+.MuiCard-root {
+    width: 14rem;
+}
+.character-image {
+    width: 14rem;
+    height: 14rem;
+}
+.MuiTypography-h5 {
+    width: 12rem;
+    max-height: 2rem;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+.MuiTypography-body2 {
+    max-height: 1.5rem;
+    overflow:hidden;
+    background: #ffffff;
+    width: auto;
+}
+
+@media (max-width: 449px) {
+    .MuiCard-root {
+        width: 10rem;
+    }
+    .character-image {
+        width: 10rem;
+        height: 10rem;
+    }
+    .MuiTypography-h5 {
+        width: 10rem;
+    }
+    .sub-info {
+        display: none;
+    }
+}

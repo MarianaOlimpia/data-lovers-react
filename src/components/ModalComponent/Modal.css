@@ -1,0 +1,45 @@
+.modal-content {
+    background: black;
+    color: #ffffff;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.modal-character-image {
+    margin: 1rem;
+    width: 16rem;
+}
+.list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.MuiTypography-body1 {
+    margin: 0;
+    width: 100%;
+    max-height: 10rem;
+}
+.list-item {
+    margin: 1rem;
+    border: solid 0.1rem rgb(63 81 181);
+}
+.modal-title {
+    flex: 1;
+}
+
+@media (max-width: 550px) {
+    .modal-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .MuiList-root {
+        background: black;
+    }
+    .MuiMenu-list {
+        background: white;
+    }
+    .MuiTypography-body1 {
+        max-height: 10rem;
+    }
+}

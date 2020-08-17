@@ -1,0 +1,25 @@
+.logo {
+    height: 5rem;
+}
+.MuiInputBase-root {
+    border: solid rgb(63 81 181);
+    padding: 0.1rem;
+    background: white;
+}
+.MuiToolbar-root {
+    display: flex;
+    justify-content: space-around;
+}
+.menu {
+    display: flex;
+}
+
+@media (max-width: 649px) {
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu {
+        margin: 0.5rem 0 0 0;
+    }
+}
