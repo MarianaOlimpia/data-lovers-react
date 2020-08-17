@@ -14,7 +14,7 @@ const Modal = ({character}) => {
 
   return (
     <div>
-      <Button variant="outlined" color="primary" onClick={handleClickOpen}>Ver más...</Button>
+      <Button variant="outlined" color="primary" onClick={handleClickOpen}>See more...</Button>
       <Dialog fullScreen open={open} onClose={handleClose} TransitionComponent={Transition}>
         <AppBar position="fixed">
           <Toolbar>

@@ -21,11 +21,11 @@ const NavBar = ({characters, setSearchCharacter}) => {
             {options.map((menu, index) => (<MainMenu key={index} title={menu.title} select={menu.options} setSearchCharacter={setSearchCharacter}/>))}
           </div>
             <form className='searchForm' onSubmit={onSubmit}>
-                    <TextField label='Buscar por palabras clave' InputProps={{startAdornment: (<InputAdornment position="start">
+                    <TextField label='Search by keywords' InputProps={{startAdornment: (<InputAdornment position="start">
               <SearchIcon color="primary" />
             </InputAdornment>
           ),
-        }} color='primary' placeholder='Buscar' onChange={(e) => {
+        }} color='primary' placeholder='Search' onChange={(e) => {
                         setSearchCharacterTemp(e.target.value);
                         }} value={searchCharacterTemp}/>
             </form>

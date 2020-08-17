@@ -1,7 +1,7 @@
 import React from 'react';
 import './Cards.css';
 import { Card, CardActionArea, CardMedia, CardContent, Typography, CardActions } from '@material-ui/core';
-import Modal from '../ModalComponent/Modal';
+import Modal from '../Modal/Modal';
 
 const Cards = ({character}) => {
     return (
